@@ -19,7 +19,7 @@ class OldSlack(commands.Cog):
 
     @commands.command(pass_context=True, hidden=True)
     async def magic8ball(self, ctx):
-        # Drake yes or no
+        # Magic 8ball
         magic_ball = ['EQ would approve', 'FCs would agree', 'Your CEO is behind you',
                       'Like EM damage rips through Sansha', 'As much as VOLT is dead', 'You would get SRP', 'Yes',
                       'You might get SRP', 'Leave the SEBO behind', 'Wrong channel there friend',
