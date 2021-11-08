@@ -12,7 +12,7 @@ class OldSlack(commands.Cog):
     @commands.command(pass_context=True, hidden=True)
     async def askdrake(self, ctx):
         # Drake yes or no
-        yesno = [':drakeyes:', ':drakeno:']
+        yesno = ['<:emoji_name:drakeyes:>', '<:emoji_name:drakeno:>']
         drake_says = random.choice(yesno)
         await ctx.trigger_typing()
         return await ctx.send(drake_says)
