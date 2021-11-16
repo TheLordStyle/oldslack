@@ -18,6 +18,19 @@ class OldSlack(commands.Cog):
         return await ctx.send(drake_says)
 
     @commands.command(pass_context=True, hidden=True)
+    async def donate(self, ctx):
+        await ctx.trigger_typing()
+        return await ctx.send("Please donate your iskies to <@136757840403628032> the poor.")
+
+    # @commands.command(pass_context=True, hidden=True)
+    # async def askbender(self, ctx):
+    #     # Bender yes or no
+    #     yesno = ['<:drakeyes:907396138922029066>', '<:DrakeNo:851900301307936768>']
+    #     bender_says = random.choice(yesno)
+    #     await ctx.trigger_typing()
+    #     return await ctx.send(bender_says)
+
+    @commands.command(pass_context=True, hidden=True)
     async def magic8ball(self, ctx):
         # Magic 8ball
         magic_ball = ['EQ would approve', 'FCs would agree', 'Your CEO is behind you',
