@@ -18,6 +18,14 @@ class OldSlack(commands.Cog):
         return await ctx.send(drake_says)
 
     @commands.command(pass_context=True, hidden=True)
+    async def staging(self, ctx):
+        await ctx.trigger_typing()
+        staging = "Current Staging is Ienakkamon X - Caldari Navy Logistic Support\n"
+        staging += "Last updated 21st Nov 2021\n"
+        staging += "https://evemaps.dotlan.net/station/Ienakkamon_X_-_Caldari_Navy_Logistic_Support"
+        return await ctx.send(staging)
+
+    @commands.command(pass_context=True, hidden=True)
     async def donate(self, ctx):
         await ctx.trigger_typing()
         return await ctx.send("Please donate your iskies to <@136757840403628032> the poor.")
