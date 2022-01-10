@@ -20,10 +20,10 @@ class OldSlack(commands.Cog):
     @commands.command(pass_context=True, hidden=True)
     async def staging(self, ctx):
         await ctx.trigger_typing()
-        staging = "Current Staging is TBD we are moving south." \
-                  " Please move doctrine ships to Barleguet Baguette Bakery for moving down south.\n" \
-                  "Non-doctrine ships should be moved to highsec for moving in the future.\n"
-        staging += "Last updated 8th Jan 2022\n"
+        staging = "Current Staging is: HLW-HP VI - Moon 14 - Serpentis Corporation Chemical Refinery\n" \
+                  "Please move Tengu, Cerb and support doctrine ships to this station\n" \
+                  "https://evemaps.dotlan.net/station/HLW-HP_VI_-_Moon_14_-_Serpentis_Corporation_Chemical_Refinery\n" \
+                  "*Last updated 11th Jan 2022*\n"
         return await ctx.send(staging)
 
     @commands.command(pass_context=True, hidden=True)
