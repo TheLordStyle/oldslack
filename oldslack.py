@@ -23,7 +23,10 @@ class OldSlack(commands.Cog):
         staging = "Current Staging is: HLW-HP VI - Moon 14 - Serpentis Corporation Chemical Refinery\n" \
                   "Please move Tengu, Cerb and support doctrine ships to this station\n" \
                   "https://evemaps.dotlan.net/station/HLW-HP_VI_-_Moon_14_-_Serpentis_Corporation_Chemical_Refinery\n" \
-                  "*Last updated 11th Jan 2022*\n"
+                  "High Sec hauling station: " \
+                  "<https://evemaps.dotlan.net/station/Arnola_VII_-_Moon_1_-_Trust_Partners_Trading_Post>\n" \
+                  "There are no cloning services in the stations in system, use friendly structures." \
+                  "*Last updated 17th Jan 2022*\n"
         return await ctx.send(staging)
 
     @commands.command(pass_context=True, hidden=True)
