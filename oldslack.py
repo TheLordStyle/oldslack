@@ -23,7 +23,8 @@ class OldSlack(commands.Cog):
         staging = "Current Staging is: HLW-HP VI - Moon 14 - Serpentis Corporation Chemical Refinery\n" \
                   "https://evemaps.dotlan.net/station/HLW-HP_VI_-_Moon_14_-_Serpentis_Corporation_Chemical_Refinery\n" \
                   "Please move Tengu, Cerb and support doctrine ships to this station\n" \
-                  "There are no cloning services in the stations in system, use friendly structures.\n\n" \
+                  "There are no cloning services in the stations in system, use friendly structures.\n" \
+                  "Join the in game channel tri.intelreporting for intel/fleets.\n\n" \
                   "High Sec hauling station: " \
                   "<https://evemaps.dotlan.net/station/Arnola_VII_-_Moon_1_-_Trust_Partners_Trading_Post>\n" \
                   "*Last updated 17th Jan 2022*\n"
