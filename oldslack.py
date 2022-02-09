@@ -25,7 +25,7 @@ class OldSlack(commands.Cog):
                   "Please move Eos, Cerb, Tengu and support doctrine ships to this station\n" \
                   "Cloning services are available in this station as well as in friendly structures\n" \
                   "Join the in game channel tri.intelreporting for intel/fleets.\n\n" \
-                  "High Sec hauling station (midpoint system for JF's is U3K-4A):" \
+                  "High Sec hauling station (midpoint system for JF's is U3K-4A):\n" \
                   "<https://evemaps.dotlan.net/station/Arnola_VII_-_Moon_1_-_Trust_Partners_Trading_Post>\n" \
                   "*Last updated 9th Feb 2022*\n"
         return await ctx.send(staging)
