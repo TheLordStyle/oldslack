@@ -20,8 +20,8 @@ class OldSlack(commands.Cog):
     @commands.command(pass_context=True, hidden=True)
     async def staging(self, ctx):
         await ctx.trigger_typing()
-        staging = "Current Staging is: Station - Litom III - Salvation Angels Trading Post\n" \
-                  "https://evemaps.dotlan.net/station/Litom_III_-_Salvation_Angels_Trading_Post\n" \
+        staging = "Current Staging is: Station - Litom XI - Moon 2 - Guardian Angels Assembly Plant\n" \
+                  "https://evemaps.dotlan.net/station/Litom_XI_-_Moon_2_-_Guardian_Angels_Assembly_Plant\n" \
                   "Please move Eos, Cerb, Tengu and support doctrine ships to this station\n" \
                   "Cloning services are available in this station as well as in friendly structures\n" \
                   "Join the in game channel tri.intelreporting for intel/fleets.\n\n" \
