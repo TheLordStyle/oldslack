@@ -20,7 +20,7 @@ class OldSlack(commands.Cog):
     @commands.command(pass_context=True, hidden=True)
     async def staging(self, ctx):
         await ctx.trigger_typing()
-        staging = "Current Staging is: Q0OH-V - Mangolorian (Fortizar)\n" \
+        staging = "Current Staging is: Q0OH-V - Mobile Oppression Palace\n" \
                   "https://evemaps.dotlan.net/system/Q0OH-V\n" \
                   "Please move your assets from Litom to this citadel, cloning services are available.\n" \
                   "Join the in game channel tri.intelreporting for intel/fleets.\n\n" \
