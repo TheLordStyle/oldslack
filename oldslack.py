@@ -23,7 +23,7 @@ class OldSlack(commands.Cog):
         staging = "Current Staging is: Q0OH-V - Mobile Oppression Palace\n" \
                   "https://evemaps.dotlan.net/system/Q0OH-V\n" \
                   "Please move your assets from Litom to this citadel, cloning services are available.\n" \
-                  "Join the in game channel tri.intelreporting for intel/fleets.\n\n" \
+                  "Join the in game channel *RMC.Intel Channel* for intel/fleets.\n\n" \
                   "Route from Amarr: " \
                   "<https://evemaps.dotlan.net/jump/Ark,544/Amarr:Kheram:UQ-PWD:G-ME2K:UF-KKH:DTX8-M:Q0OH-V>\n" \
                   "*Last updated 2nd April 2022*\n"
