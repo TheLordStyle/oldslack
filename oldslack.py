@@ -20,13 +20,10 @@ class OldSlack(commands.Cog):
     @commands.command(pass_context=True, hidden=True)
     async def staging(self, ctx):
         await ctx.trigger_typing()
-        staging = "Current Staging is: Q0OH-V - Mobile Oppression Palace\n" \
-                  "https://evemaps.dotlan.net/system/Q0OH-V\n" \
-                  "Please move your assets from Litom to this citadel, cloning services are available.\n" \
+        staging = "Current Staging is: VYJ-DA - Triumvireichstag Jr.\n" \
+                  "https://evemaps.dotlan.net/system/VYJ-DA\n" \
                   "Join the in game channel *RMC.Intel Channel* for intel/fleets.\n\n" \
-                  "Route from Amarr: " \
-                  "<https://evemaps.dotlan.net/jump/Ark,544/Amarr:Kheram:UQ-PWD:G-ME2K:UF-KKH:DTX8-M:Q0OH-V>\n" \
-                  "*Last updated 2nd April 2022*\n"
+                  "*Last updated 11th July 2022*\n"
         return await ctx.send(staging)
 
     @commands.command(pass_context=True, hidden=True)
@@ -34,7 +31,7 @@ class OldSlack(commands.Cog):
         await ctx.trigger_typing()
         shipping = "Need stuff shipped from a trade hub to our staging? Lestat's Clan has you covered!\n" \
                    "<https://evewho.com/corporation/98048878>\n" \
-                   "Set up a courier to them from Amarr, Jita or Q0OH-V to Amarr, Jita or Q0OH-V\n" \
+                   "Set up a courier to them from Amarr, Jita or VYJ-DA to Amarr, Jita or VYJ-DA\n" \
                    "Cost is 1,200 isk per m3, Collateral up to 20b isk.\n" \
                    "Duration should be 1 week with 3 days to complete"
         return await ctx.send(shipping)
