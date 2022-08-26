@@ -32,7 +32,7 @@ class OldSlack(commands.Cog):
         shipping = "Need stuff shipped from a trade hub to our staging? Lestat's Clan has you covered!\n" \
                    "<https://evewho.com/corporation/98048878>\n" \
                    "Set up a courier to them from Amarr, Jita or VYJ-DA to Amarr, Jita or VYJ-DA\n" \
-                   "Cost is 1,200 isk per m3, Collateral up to 20b isk.\n" \
+                   "Cost is 1,000 isk per m3, Collateral up to 20b isk.\n" \
                    "Duration should be 1 week with 3 days to complete"
         return await ctx.send(shipping)
 
