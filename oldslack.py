@@ -29,11 +29,13 @@ class OldSlack(commands.Cog):
     @commands.command(pass_context=True, hidden=True)
     async def shipping(self, ctx):
         await ctx.trigger_typing()
-        shipping = "Need stuff shipped from a trade hub to our staging? Lestat's Clan has you covered!\n" \
-                   "<https://evewho.com/corporation/98048878>\n" \
-                   "Set up a courier to them from Amarr, Jita or VYJ-DA to Amarr, Jita or VYJ-DA\n" \
-                   "Cost is 1,000 isk per m3, Collateral up to 20b isk.\n" \
-                   "Duration should be 1 week with 3 days to complete"
+        #  shipping = "Need stuff shipped from a trade hub to our staging? Lestat's Clan has you covered!\n" \
+        #           "<https://evewho.com/corporation/98048878>\n" \
+        #           "Set up a courier to them from Amarr, Jita or VYJ-DA to Amarr, Jita or VYJ-DA\n" \
+        #           "Cost is 1,000 isk per m3, Collateral up to 20b isk.\n" \
+        #           "Duration should be 1 week with 3 days to complete"
+        shipping = "Lestat's clan is no longer providing services.\n" \
+                   "Please use PushX, check within the alliance or wait for further announcements"
         return await ctx.send(shipping)
 
     @commands.command(pass_context=True, hidden=True)
